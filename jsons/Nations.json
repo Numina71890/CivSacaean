@@ -1,38 +1,38 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "Sacaean",
+		"leaderName": "Lyn",
+		"adjective": ["Sacaean"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Naturism",
+		"startBias": ["Plains"],
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "A thousand blessings upon you, and may a thousand curses may rain upon your foes, Lady Lyn; The Noblewoman of Sacae! Your life used to be peaceful within the plains, not until your parents perish at the hands of the Taliver bandits, and there you vowed to train to be stronger, so you may avenge their deaths and protect the weak from the cruel. Your life in isolation were utterly changed when you met a man named Mark, the most brilliant tactician you ever knew, and there your destiny were forever changed as with him, you were entangled to the affairs of Caelin, crossing blades with your cruel granduncle Lundgren, who was plotting to kill you and your grandfather. And the struggle against the Black Fang who were once noble, now corrupted by the wicked figure, Nergal.",
+		"startIntroPart2": "Beautiful and Illustrious Lyn, as your grandfather have now forfeited this world, the plains call for your name once more. Can you make Sacae prosper? Can you defend your home from those who seek to destroy? Can you build a civilization that can stand the test of time?",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "You have brought too much suffering within this world. I cannot allow you to hurt many more people!",
+		"attacked": "We shall resist your expansions, and I shall be there to stop you with my own blade!",
+		"defeated": "You people call yourselves civilized men, but in my eyes you are nothing but glorified barbarians. Sacae shall be free one day, remember that.",
+		"introduction": "Hello! I am Lyn of Sacae. May a thousand blessings be bestowed upon you stranger.",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralHello": "Welcome.",
+		"neutralLetsHearIt": ["Need anything friend?","I shall lend my ears","I hear you."],
+		"neutralNo": ["Certainly not.","Sorry.","It shall not work."],
+		"neutralYes": ["Of course.","Certainly.","Gladly."],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"hateHello": "Why did YOU come here?",
+		"hateLetsHearIt": ["Say it.","Go.","Waste no time then."],
+		"hateNo": ["No.","Absolutely not.","Never."],
+		"hateYes": ["I have no option.","It shall work.","I must accept it."],
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"afterPeace": "I am grateful for you, giving peace a chance once more.",
+		"tradeRequest": "I shall offer you the finest of Sacae.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"outerColor": [135,206,235],
+		"innerColor": [0,100,0],
+		"uniqueName": "Sacaean Valor",
+		"uniques": ["+[15]% combat bonus for units fighting in [Ger]","+[10]% combat bonus for units fighting in [Plains]","[+1 Food, +1 Production] in cities on [Plains] tiles"], 
+		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
+		"spyNames": ["Rath", "Guy", "Florina", "Sain", "Kent", "Karel", "Karla", "Wallace", "Raven", "Lucius"]
 	}
 ]
