@@ -11,7 +11,7 @@
 		"requiredResource": "Mani Katti",
 		"upgradesTo": "Lyn (Medieval)",
 		"uniques": ["Can be upgraded each era","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"obsoleteTech": "Metal Casting",
 		"attackSound": "metalhit"
 	},
@@ -28,7 +28,7 @@
 		"requiredResource": "Mani Katti",
 		"upgradesTo": "Lyn (Renaissance)",
 		"uniques": ["Can be upgraded each era","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
@@ -47,7 +47,7 @@
 		"requiredResource": "Mani Katti"
 		"obsoleteTech": "Rifling",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"attackSound": "metalhit"
 	},
 	
@@ -65,7 +65,7 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"attackSound": "metalhit"
 	},
 	
@@ -83,7 +83,7 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	
@@ -101,7 +101,7 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	
@@ -117,7 +117,7 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Mani Katti",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	// Sacaean Troops
