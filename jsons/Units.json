@@ -7,6 +7,7 @@
 		"strength": "10",
 		"cost": "10",
 		"hurryCostModifier": "10",
+		"requiredResource": "Mani Katti",
 		"upgradesTo": "Lyn (Medieval)",
 		"uniques": ["Can be upgraded each era","Cannot be purchased"],
 		"promotions": ["Noble Fortitude","Sacaean Justice"],
