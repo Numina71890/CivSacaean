@@ -3,8 +3,9 @@
 		"name": "Lyn",
 		"unitType": "Lord Melee",
 		"uniqueTo": "Sacaean",
-		"movement": "2",
-		"strength": "10",
+		"movement": "3",
+		"strength": "12",
+		"rangedStrength": "12"
 		"cost": "10",
 		"hurryCostModifier": "10",
 		"requiredResource": "Mani Katti",
@@ -18,8 +19,9 @@
 		"name": "Lyn (Medieval)",
 		"unitType": "Lord Melee",
 		"uniqueTo": "Sacaean",
-		"movement": "2",
+		"movement": "3",
 		"strength": "20",
+		"rangedStrength": "20"
 		"cost": "80",
 		"hurryCostModifier": "20",
 		"requiredTech": "Metal Casting",
@@ -35,8 +37,9 @@
 		"name": "Lyn (Renaissance)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Lyn (Industrial)",
-		"movement": "2",
+		"movement": "3",
 		"strength": "25",
+		"rangedStrength": "25"
 		"cost": "175",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -52,8 +55,9 @@
 		"name": "Lyn (Industrial)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Blade Lord Lyn (Modern)",
-		"movement": "2",
+		"movement": "3",
 		"strength": "35",
+		"rangedStrength": "35"
 		"cost": "250",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -69,8 +73,9 @@
 		"name": "Blade Lord Lyn (Modern)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Blade Lord Lyn (Atomic)",
-		"movement": "2",
+		"movement": "3",
 		"strength": "65",
+		"rangedStrength": "65"
 		"cost": "375",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -86,8 +91,9 @@
 		"name": "Blade Lord Lyn (Atomic)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Blade Lord Lyn (Information)",
-		"movement": "2",
+		"movement": "3",
 		"strength": "75",
+		"rangedStrength": "75"
 		"cost": "375",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -102,8 +108,9 @@
 	{
 		"name": "Blade Lord Lyn (Information)",
 		"unitType": "Lord Melee",
-		"movement": "2",
+		"movement": "3",
 		"strength": "90",
+		"rangedStrength": "90"
 		"cost": "400",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -111,6 +118,75 @@
 		"requiredResource": "Mani Katti",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
 		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
+		"attackSound": "metalhit"
+	},
+	// Sacaean Troops
+	{
+		"name": "Nomad",
+		"unitType": "Archery",
+		"uniqueTo": "Sacaean", 
+		"replaces": "Chariot Archer",
+		"cost": "50",
+		"range": "2",
+		"movement": "4",
+		"strength": "6",
+		"rangedStrength": "10",
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Nomadic Trooper",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Nomadic Trooper",
+		"uniqueTo": "Sacaean",
+		"unitType": "Archery",
+		"replaces": "Knight",
+		"cost": "120",
+		"movement": "4",
+		"strength": "16",
+		"rangedStrength": "16",
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"promotions": ["Mobility"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Will not be displayed in Civilopedia"],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Myrmidon",
+		"unitType": "Sword",
+		"uniqueTo": "Sacaean",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Swordsmaster",
+		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Upgrades to a stronger version"],
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Swordsmaster",
+		"unitType": "Sword",
+		"uniqueTo": "Sacaean",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Will not be displayed in Civilopedia"],
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	}
 ]
