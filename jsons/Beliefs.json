@@ -2,6 +2,6 @@
     {
         "name": "Father Sky and Mother Earth",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Plains]","[+1 Culture] from every [Pasture]",]
+        "uniques": ["[+2 Faith, +2 Culture, +2 Happiness] from every [Plains]"]
     },
 ]
