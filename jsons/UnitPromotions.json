@@ -13,16 +13,21 @@
 	
 	{
 		"name": "Noble Fortitude", // should be exclusive to lord units only
-		"uniques": ["[+200]% XP gained from combat"]
+		"uniques": ["Unit will heal every turn, even if it performs an action","All adjacent units heal [+5] HP when healing","[+20] HP when healing <in [Foreign Land] tiles>","[+100]% Strength <when defending>"]
 	},
 	
 	{
 		"name": "Sacaean Justice", 
-		"uniques": ["Earn [100]% of the damage done to [Barbarians] units as [Culture]","[+100]% Strength <vs [Barbarians] units>"]
+		"uniques": ["Earn [100]% of the damage done to [Barbarians] units as [Culture]","[+100]% Strength <vs [Barbarians] units>","[2] additional attacks per turn"]
+	},
+
+	{
+		"name": "Queen of the Plains", 
+		"uniques": ["Double movement in [Plains]","May withdraw before melee ([100]%)","[+100]% Strength <when fighting in [Open terrain] tiles>"]
 	},
 
 	{
 		"name": "Precision Strikes", //Exlcusive to Lyn
-		"uniques": ["[+100]% Strength <when attacking> <with [15]% chance>"]
+		"uniques": ["[+100]% Strength <when attacking> <with [100]% chance>",[2] additional attacks per turn]
 	}
 ]
