@@ -2,10 +2,9 @@
 	{
 		"name": "Mani Katti Shrine",
 		"cost": "200",
-		"faith": 1,
-		"requiredTech": "Metal Casting",
+		"faith": 5,
 		"isNationalWonder": true,
 		"uniqueTo": "Sacaean",
-		"uniques": ["Unsellable","Free [Lyn (Medieval)] appears","Will not be displayed in Civilopedia","Provides [1] [Mani Katti]","Cannot be purchased"]
+		"uniques": ["Unsellable","Free [Lyn] appears","Will not be displayed in Civilopedia","Provides [1] [Mani Katti]","Cannot be purchased"]
 	}
 ]
