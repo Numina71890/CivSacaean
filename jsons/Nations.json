@@ -31,7 +31,7 @@
 		"outerColor": [135,206,235],
 		"innerColor": [0,100,0],
 		"uniqueName": "Sacaean Valor",
-		"uniques": ["+[15]% combat bonus for units fighting in [Ger]","+[10]% combat bonus for units fighting in [Plains]","[+1 Food, +1 Production] in cities on [Plains] tiles"], 
+		"uniques": ["+[25]% combat bonus for units fighting in [Ger]","+[20]% combat bonus for units fighting in [Plains]","[+2 Food, +2 Production] from [Ger] tiles [in all cities]"], 
 		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
 		"spyNames": ["Rath", "Guy", "Florina", "Sain", "Kent", "Karel", "Karla", "Wallace", "Raven", "Lucius"]
 	}
