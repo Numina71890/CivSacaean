@@ -1,0 +1,28 @@
+[
+
+//New Promotions
+
+/*Unit Exclusive Promotions*/
+		
+/*For Lords */
+
+	{
+		"name": "Royal Pardon"
+		"uniques": ["May capture killed [Military] units"]
+	},
+	
+	{
+		"name": "Noble Fortitude", // should be exclusive to lord units only
+		"uniques": ["[+200]% XP gained from combat"]
+	},
+	
+	{
+		"name": "Sacaean Justice", 
+		"uniques": ["Earn [100]% of the damage done to [Barbarians] units as [Culture]","[+100]% Strength <vs [Barbarians] units>"]
+	},
+
+	{
+		"name": "Precision Strikes", //Exlcusive to Lyn
+		"uniques": ["[+100]% Strength <when attacking> <with [15]% chance>"]
+	}
+]
