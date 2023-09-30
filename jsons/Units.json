@@ -1,17 +1,101 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Lyn (Medieval)",
+		"unitType": "Lord Melee",
+		"uniqueTo": "Sacaean",
+		"movement": "2",
+		"strength": "20",
+		"cost": "80",
+		"hurryCostModifier": "20",
+		"requiredTech": "Metal Casting",
+		"requiredResource": "Mani Katti",
+		"upgradesTo": "Lyn (Renaissance)",
+		"uniques": ["Can be upgraded each era","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Lyn (Renaissance)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Lyn (Industrial)",
+		"movement": "2",
+		"strength": "25",
+		"cost": "175",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Gunpowder",
+		"requiredResource": "Mani Katti"
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Lyn (Industrial)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Modern)",
+		"movement": "2",
+		"strength": "35",
+		"cost": "250",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Rifling",
+		"requiredResource": "Mani Katti",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Modern)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Atomic)",
+		"movement": "2",
+		"strength": "65",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Mani Katti",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Atomic)",
+		"unitType": "Lord Melee",
+		"upgradesTo": "Blade Lord Lyn (Information)",
+		"movement": "2",
+		"strength": "75",
+		"cost": "375",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Mani Katti",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blade Lord Lyn (Information)",
+		"unitType": "Lord Melee",
+		"movement": "2",
+		"strength": "90",
+		"cost": "400",
+		"hurryCostModifier": "20",
+		"uniqueTo": "Sacaean",
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Mani Katti",
+		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
+		"promotions": ["Noble Fortitude","Sacaean Justice","Precision Strikes"],
+		"attackSound": "metalhit"
 	}
 ]
