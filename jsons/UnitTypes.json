@@ -3,6 +3,6 @@
     {
         "name": "Lord Melee",
         "movementType": "Land",
-	"uniques": ["[+15]% Strength bonus for [Military] units within [4] tiles","Uncapturable"]
+	"uniques": ["[+25]% Strength bonus for [Military] units within [4] tiles","Uncapturable"]
     }
 ]
