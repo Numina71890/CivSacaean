@@ -13,7 +13,7 @@
 	
 	{
 		"name": "Noble Fortitude", // should be exclusive to lord units only
-		"uniques": ["Unit will heal every turn, even if it performs an action","All adjacent units heal [+5] HP when healing","[+20] HP when healing <in [Foreign Land] tiles>","[+100]% Strength <when defending>"]
+		"uniques": ["[+100]% XP gained from combat","Unit will heal every turn, even if it performs an action","All adjacent units heal [+10] HP when healing","[+20] HP when healing <in [Foreign Land] tiles>","[+100]% Strength <when defending>"]
 	},
 	
 	{
