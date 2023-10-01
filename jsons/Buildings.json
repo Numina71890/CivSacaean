@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Mani Katti Shrine",
-		"cost": "200",
+		"cost": "20",
 		"faith": 5,
 		"isNationalWonder": true,
 		"uniqueTo": "Sacaean",
