@@ -3,15 +3,16 @@
 		"name": "Lyn",
 		"unitType": "Lord Melee",
 		"uniqueTo": "Sacaean",
-		"movement": "3",
+		"movement": "2",
 		"strength": "12",
 		"rangedStrength": "12"
 		"cost": "10",
 		"hurryCostModifier": "10",
+		"requiredTech": "Animal Husbandry",
 		"requiredResource": "Mani Katti",
 		"upgradesTo": "Lyn (Medieval)",
 		"uniques": ["Can be upgraded each era","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
+		"promotions": ["Royal Pardon","Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"obsoleteTech": "Metal Casting",
 		"attackSound": "metalhit"
 	},
@@ -19,7 +20,7 @@
 		"name": "Lyn (Medieval)",
 		"unitType": "Lord Melee",
 		"uniqueTo": "Sacaean",
-		"movement": "3",
+		"movement": "2",
 		"strength": "20",
 		"rangedStrength": "20"
 		"cost": "80",
@@ -28,7 +29,7 @@
 		"requiredResource": "Mani Katti",
 		"upgradesTo": "Lyn (Renaissance)",
 		"uniques": ["Can be upgraded each era","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
+		"promotions": ["Royal Pardon","Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
@@ -37,7 +38,7 @@
 		"name": "Lyn (Renaissance)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Lyn (Industrial)",
-		"movement": "3",
+		"movement": "2",
 		"strength": "25",
 		"rangedStrength": "25"
 		"cost": "175",
@@ -47,7 +48,7 @@
 		"requiredResource": "Mani Katti"
 		"obsoleteTech": "Rifling",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
+		"promotions": ["Royal Pardon","Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"attackSound": "metalhit"
 	},
 	
@@ -55,7 +56,7 @@
 		"name": "Lyn (Industrial)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Blade Lord Lyn (Modern)",
-		"movement": "3",
+		"movement": "2",
 		"strength": "35",
 		"rangedStrength": "35"
 		"cost": "250",
@@ -65,7 +66,7 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains"],
+		"promotions": ["Royal Pardon","Noble Fortitude","Sacaean Justice","Queen of the Plains"],
 		"attackSound": "metalhit"
 	},
 	
@@ -73,7 +74,7 @@
 		"name": "Blade Lord Lyn (Modern)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Blade Lord Lyn (Atomic)",
-		"movement": "3",
+		"movement": "2",
 		"strength": "65",
 		"rangedStrength": "65"
 		"cost": "375",
@@ -83,7 +84,7 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
+		"promotions": ["Royal Pardon","Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	
@@ -91,7 +92,7 @@
 		"name": "Blade Lord Lyn (Atomic)",
 		"unitType": "Lord Melee",
 		"upgradesTo": "Blade Lord Lyn (Information)",
-		"movement": "3",
+		"movement": "2",
 		"strength": "75",
 		"rangedStrength": "75"
 		"cost": "375",
@@ -101,14 +102,14 @@
 		"requiredResource": "Mani Katti",
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
+		"promotions": ["Royal Pardon","Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	
 	{
 		"name": "Blade Lord Lyn (Information)",
 		"unitType": "Lord Melee",
-		"movement": "3",
+		"movement": "2",
 		"strength": "90",
 		"rangedStrength": "90"
 		"cost": "400",
@@ -117,7 +118,7 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Mani Katti",
 		"uniques": ["Can be upgraded each era","Will not be displayed in Civilopedia","Cannot be purchased"],
-		"promotions": ["Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
+		"promotions": ["Royal Pardon","Noble Fortitude","Sacaean Justice","Queen of the Plains","Precision Strikes"],
 		"attackSound": "metalhit"
 	},
 	// Sacaean Troops
