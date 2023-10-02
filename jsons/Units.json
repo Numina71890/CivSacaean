@@ -5,7 +5,6 @@
 		"uniqueTo": "Sacaean",
 		"movement": "2",
 		"strength": "12",
-		"rangedStrength": "12"
 		"cost": "10",
 		"hurryCostModifier": "10",
 		"requiredTech": "Animal Husbandry",
@@ -22,7 +21,6 @@
 		"uniqueTo": "Sacaean",
 		"movement": "2",
 		"strength": "20",
-		"rangedStrength": "20"
 		"cost": "80",
 		"hurryCostModifier": "20",
 		"requiredTech": "Metal Casting",
@@ -40,7 +38,6 @@
 		"upgradesTo": "Lyn (Industrial)",
 		"movement": "2",
 		"strength": "25",
-		"rangedStrength": "25"
 		"cost": "175",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -58,7 +55,6 @@
 		"upgradesTo": "Blade Lord Lyn (Modern)",
 		"movement": "2",
 		"strength": "35",
-		"rangedStrength": "35"
 		"cost": "250",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -76,7 +72,6 @@
 		"upgradesTo": "Blade Lord Lyn (Atomic)",
 		"movement": "2",
 		"strength": "65",
-		"rangedStrength": "65"
 		"cost": "375",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -94,7 +89,6 @@
 		"upgradesTo": "Blade Lord Lyn (Information)",
 		"movement": "2",
 		"strength": "75",
-		"rangedStrength": "75"
 		"cost": "375",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
@@ -111,7 +105,6 @@
 		"unitType": "Lord Melee",
 		"movement": "2",
 		"strength": "90",
-		"rangedStrength": "90"
 		"cost": "400",
 		"hurryCostModifier": "20",
 		"uniqueTo": "Sacaean",
