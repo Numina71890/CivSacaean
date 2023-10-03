@@ -23,7 +23,7 @@
 
 	{
 		"name": "Queen of the Plains", 
-		"uniques": ["Double movement in [Plains]","May withdraw before melee ([100]%)","[+100]% Strength <when fighting in [Open terrain] tiles>"]
+		"uniques": ["Double movement in [Plains]","May withdraw before melee ([50]%)","[+100]% Strength <when fighting in [Open terrain] tiles>"]
 	},
 
 	{
