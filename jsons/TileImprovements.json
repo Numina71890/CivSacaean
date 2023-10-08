@@ -2,7 +2,7 @@
 	{
 		"name": "Ger",
 		"uniqueTo": "Sacaean",
-		"terrainsCanBeBuiltOn": ["Plains","Deserts","Grasslands","Tundra" ],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra" ],
 		"production": 1,
 		"culture": 2,
 		"faith": 2,
