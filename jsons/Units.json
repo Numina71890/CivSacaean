@@ -159,7 +159,7 @@
 		"strength": 9,
 		"cost": 1,
 		"upgradesTo": "Musketman",
-		"uniques" : ["Can build [Land] improvements on tiles"],
+		"uniques" : ["Can build [Land] improvements on tiles","Founds a new city <by consuming this unit>"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "nonmetalhit"
 	},
