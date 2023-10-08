@@ -33,7 +33,6 @@
 		"uniqueName": "Sacaean Valor",
 		"uniques": ["+[25]% combat bonus for units fighting in [Ger]",
 			"+[20]% combat bonus for units fighting in [Plains]",
-			"[2] Movement <for [Mounted] units>,"
 			"[+2 Food, +2 Production] in cities on [Plains] tiles",
 			"[+1 Culture, +1 Faith] from every [Plains] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]>",
 			"Double quantity of [Horses] produced"], 
