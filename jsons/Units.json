@@ -159,6 +159,7 @@
 		"strength": 9,
 		"cost": 1,
 		"upgradesTo": "Musketman",
+		"uniques" : ["Can build [Land] improvements on tiles"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "nonmetalhit"
 	},
