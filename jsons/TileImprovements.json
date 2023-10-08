@@ -5,8 +5,9 @@
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"production": 1,
 		"culture": 2,
-		"turnsToBuild": 5,
-		"uniques": ["Cannot be built on [Forest] tiles","Cannot be built on [Hill] tiles","Cannot be built on [Jungle] tiles", "Gives a defensive bonus of [15]%", "[+2 Gold, +1 Culture] <after discovering [Flight]>", "[+2 Production] <after discovering [Economics]>"],
+		"faith": 2,
+		"turnsToBuild": 3,
+		"uniques": ["Cannot be built on [Forest] tiles","Cannot be built on [Hill] tiles","Cannot be built on [Jungle] tiles", "Gives a defensive bonus of [25]%", "[+2 Gold, +1 Culture] <after discovering [Flight]>", "[+2 Production] <after discovering [Economics]>"],
 		"techRequired": "Animal Husbandry",
 		"shortcutKey": "G"
 	}
