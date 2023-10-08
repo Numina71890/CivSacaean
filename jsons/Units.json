@@ -7,7 +7,6 @@
 		"strength": "12",
 		"cost": "10",
 		"hurryCostModifier": "10",
-		"requiredTech": "Animal Husbandry",
 		"requiredResource": "Mani Katti",
 		"upgradesTo": "Lyn (Medieval)",
 		"uniques": ["Can be upgraded each era","Cannot be purchased"],
