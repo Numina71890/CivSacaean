@@ -5,6 +5,12 @@
 		"faith": 5,
 		"isNationalWonder": true,
 		"uniqueTo": "Sacaean",
-		"uniques": ["Unsellable","Free [Lyn] appears","Will not be displayed in Civilopedia","Provides [1] [Mani Katti]","Cannot be purchased"]
+		"uniques": ["Unsellable",
+			"Free [Lyn] appears",
+			"May choose [1] additional belief(s) of any type when [founding] a religion",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture, Faith]",
+			"Will not be displayed in Civilopedia",
+			"Provides [1] [Mani Katti]",
+			"Cannot be purchased"]
 	}
 ]
