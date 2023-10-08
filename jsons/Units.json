@@ -149,6 +149,19 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Will not be displayed in Civilopedia"],
 		"attackSound": "arrow"
 	},
+
+	{
+		"name": "Nomadic Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Sacaean",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 9,
+		"cost": 1,
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "nonmetalhit"
+	},
 	
 	{
 		"name": "Myrmidon",
