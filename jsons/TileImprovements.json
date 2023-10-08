@@ -2,11 +2,11 @@
 	{
 		"name": "Ger",
 		"uniqueTo": "Sacaean",
-		"terrainsCanBeBuiltOn": ["Plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Deserts","Grasslands","Tundra" ],
 		"production": 1,
 		"culture": 2,
 		"faith": 2,
-		"turnsToBuild": 3,
+		"turnsToBuild": 1,
 		"uniques": ["Cannot be built on [Forest] tiles","Cannot be built on [Hill] tiles","Cannot be built on [Jungle] tiles", "Gives a defensive bonus of [15]%", "[+2 Gold, +1 Culture] <after discovering [Flight]>", "[+2 Production] <after discovering [Economics]>"],
 		"techRequired": "Animal Husbandry",
 		"shortcutKey": "G"
