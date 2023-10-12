@@ -174,8 +174,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Bronze Working",
 		"upgradesTo": "Handgunner",
-		"promotions": ["Formation I","Drill II","Shock II"],
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <when defending>"],
+		"uniques": ["[+50]% Strength <vs [Sword] units>","[+50]% Strength <vs [Mounted] units>","[+50]% Strength <when defending>"],
 		"attackSound": "metalhit"
 	},
 
@@ -188,7 +187,6 @@
 		"strength": 25,
 		"cost": 160,
 		"requiredTech": "Gunpowder",
-		"promotions": ["Formation II","Drill III","Shock III"],
 		"uniques": ["[+50]% Strength <when attacking>","[+50]% Strength <vs [Mounted] units>","[+50]% Strength <when defending>","Ignores terrain cost"],
 		"attackSound": "shot"
 	},
