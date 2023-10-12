@@ -157,11 +157,40 @@
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 9,
-		"cost": 1,
-		"upgradesTo": "Musketman",
+		"cost": 50,
+		"upgradesTo": "Sacaean Footmen",
 		"uniques" : ["Can build [Land] improvements on tiles","Founds a new city <by consuming this unit>"],
-		"obsoleteTech": "Gunpowder",
 		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Sacaean Footmen",
+		"unitType": "Sword",
+		"uniqueTo": "Sacaean",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 100,
+		"hurryCostModifier": 20,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Handgunner",
+		"promotions": ["Formation I","Drill II","Shock II"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <when defending>"],
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Handgunner",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Sacaean",
+		"replaces": "Musketman",
+		"movement": 2,
+		"strength": 25,
+		"cost": 160,
+		"requiredTech": "Gunpowder",
+		"promotions": ["Formation II","Drill III","Shock III"],
+		"uniques": ["[+50]% Strength <when attacking>","[+50]% Strength <vs [Mounted] units>","[+50]% Strength <when defending>","Ignores terrain cost"],
+		"attackSound": "shot"
 	},
 	
 	{
@@ -174,7 +203,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Swordsmaster",
-		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Upgrades to a stronger version"],
+		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Ignores terrain cost","Upgrades to a stronger version"],
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
@@ -190,8 +219,8 @@
 		"strength": 18,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Will not be displayed in Civilopedia"],
+		"upgradesTo": "Handgunner",
+		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Ignores terrain cost","[Great General] is earned [100]% faster","[+100]% XP gained from combat"],
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
